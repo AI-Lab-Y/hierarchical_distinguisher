@@ -1,0 +1,93 @@
+F:\softwares\Anaconda3\python.exe F:/data/PycharmProjects/ND-Reconstruct/Latest_codes/Speck32-64/bit_sensitivity_test.py
+Using TensorFlow backend.
+WARNING: Logging before flag parsing goes to stderr.
+W0609 16:27:47.521437  7588 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W0609 16:27:47.849486  7588 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W0609 16:27:47.958868  7588 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:131: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W0609 16:27:47.958868  7588 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+W0609 16:27:48.286915  7588 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+2022-06-09 16:27:48.309535: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2022-06-09 16:27:48.317201: I tensorflow/stream_executor/platform/default/dso_loader.cc:42] Successfully opened dynamic library nvcuda.dll
+2022-06-09 16:27:48.451326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1640] Found device 0 with properties: 
+name: GeForce GTX 1060 6GB major: 6 minor: 1 memoryClockRate(GHz): 1.7085
+pciBusID: 0000:01:00.0
+2022-06-09 16:27:48.451573: I tensorflow/stream_executor/platform/default/dlopen_checker_stub.cc:25] GPU libraries are statically linked, skip dlopen check.
+2022-06-09 16:27:48.464165: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1763] Adding visible gpu devices: 0
+2022-06-09 16:27:55.579075: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1181] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-06-09 16:27:55.579301: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1187]      0 
+2022-06-09 16:27:55.579434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1200] 0:   N 
+2022-06-09 16:27:55.604267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1326] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4852 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1060 6GB, pci bus id: 0000:01:00.0, compute capability: 6.1)
+W0609 16:27:56.347497  7588 deprecation_wrapper.py:119] From F:\softwares\Anaconda3\lib\site-packages\keras\optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+The initial acc is  0.60648000061512
+cur bit position is  0
+the decrease of the acc is  -3.999888896932813e-05
+cur bit position is  1
+the decrease of the acc is  -3.500103950493383e-05
+cur bit position is  2
+the decrease of the acc is  0.0011180007457733954
+cur bit position is  3
+the decrease of the acc is  0.005750001668930138
+cur bit position is  4
+the decrease of the acc is  0.053875003457069415
+cur bit position is  5
+the decrease of the acc is  0.05585900545120248
+cur bit position is  6
+the decrease of the acc is  0.000703000426292455
+cur bit position is  7
+the decrease of the acc is  0.0011649996042252253
+cur bit position is  8
+the decrease of the acc is  0.0006380021572113259
+cur bit position is  9
+the decrease of the acc is  0.0014710003137589078
+cur bit position is  10
+the decrease of the acc is  0.006093999743461698
+cur bit position is  11
+the decrease of the acc is  0.022828999757766755
+cur bit position is  12
+the decrease of the acc is  0.054503999948501636
+cur bit position is  13
+the decrease of the acc is  0.05336099982261666
+cur bit position is  14
+the decrease of the acc is  0.04565500080585483
+cur bit position is  15
+the decrease of the acc is  5.6996941566467285e-05
+cur bit position is  16
+the decrease of the acc is  0.0003170013427734597
+cur bit position is  17
+the decrease of the acc is  0.0011630010604858354
+cur bit position is  18
+the decrease of the acc is  0.007257999181747521
+cur bit position is  19
+the decrease of the acc is  0.01474700033664711
+cur bit position is  20
+the decrease of the acc is  0.05434100210666659
+cur bit position is  21
+the decrease of the acc is  0.0560320037603379
+cur bit position is  22
+the decrease of the acc is  0.0007219994068146107
+cur bit position is  23
+the decrease of the acc is  0.0015939998626709473
+cur bit position is  24
+the decrease of the acc is  0.002573997378349291
+cur bit position is  25
+the decrease of the acc is  0.01523000061511992
+cur bit position is  26
+the decrease of the acc is  0.03872500121593481
+cur bit position is  27
+the decrease of the acc is  0.05924500226974494
+cur bit position is  28
+the decrease of the acc is  0.07206900537014016
+cur bit position is  29
+the decrease of the acc is  0.05409600496292122
+cur bit position is  30
+the decrease of the acc is  0.04491600036621102
+cur bit position is  31
+the decrease of the acc is  9.998083114637346e-06
+
+Process finished with exit code 0
